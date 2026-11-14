@@ -21,7 +21,7 @@
 }
 
 body{
-    font-size: 18px;
+    font-size: 1rem;
     font-family: 'Bai Jamjuree', sans-serif;
 }
 .container{
@@ -44,16 +44,16 @@ header img{
     margin-top: 38px;
     width: 50px;
 }
-.global_rurls{
+.Headings_p{
     width: 640px;
     text-align: center;
     margin: 20px 0 20px 0 ;
 }
-.global_rurls h1{
+.Headings_p h1{
     color: var(--hedding_color);
     font-weight: 600;
 }
-.global_rurls p{
+.Headings_p p{
     padding: 15px;
     color: var(--pragraph_color);
     font-weight: 400;
@@ -104,7 +104,7 @@ button:hover{
 .cat h1{
     margin-top: 20px;
     color: var(--hedding_color);
-    font-size: 18px;
+    font-size: 1rem;
     font-weight: 600;
 }
 .cat  p{
@@ -125,16 +125,17 @@ button:hover{
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
 }
-.info > div{
+.info  div{
     text-align: center;
 }
 .info img{
     width: 33px;
 }
 
-.info h5{
+.info h1{
     margin-top: 30px;
     color: var(--hedding_color);
+    font-size: 18px;
     font-weight: 600;
 }
 .info p{
@@ -142,14 +143,14 @@ button:hover{
     color: var(--pragraph_color);
     font-weight: 400;
 }
-nav{
+.logos{
     margin: 40px 0 40px 0;
     width: 90%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
-nav img{
+.logos img{
 width: 90px;
 }
 .contactUs img{
@@ -171,12 +172,12 @@ width: 90px;
     gap: 20px 40px;
     text-align: left;
 }
-.contactUs .contact > a{
+.contactUs a{
     color: var(--hedding_color);
     font-weight: 400;
     text-decoration: none;
 }
-.contactUs .contact > a:hover{
+.contactUs a:hover{
     color: hsl(171, 66%, 44%);
 }
 .contactUs .media{
@@ -218,7 +219,7 @@ width: 90px;
     margin-top: 10px;
     text-align: center;
 }
-.global_rurls{
+.Headings_p{
     width: 320px;
     text-align: center;
     margin: 30px 0 20px 0;
