@@ -74,11 +74,11 @@ button{
 button:hover{
     cursor: pointer;
 }
-#ios{
+.ios{
     background-color: var(--ios_color);
     box-shadow: 0 0 5px var(--ios_color);
 }
-#mac{
+.mac{
     background-color: var(--mac_color);
     box-shadow: 0 0 7px var(--mac_color);
 }
@@ -89,7 +89,7 @@ button:hover{
     grid-template-columns: 1fr 1fr;
     gap: 80px;
     align-items: center;
-    margin-bottom: 80px auto;
+    margin: 80px auto;
 }
 
 .category img{
@@ -101,12 +101,13 @@ button:hover{
     width: 376px;
     text-align: left;
 }
-.cat > h4{
+.cat h1{
+    margin-top: 20px;
     color: var(--hedding_color);
+    font-size: 18px;
     font-weight: 600;
 }
-.cat > p{
-    margin-top: 20px;
+.cat  p{
     color: var(--pragraph_color);
     font-weight: 400;
 }
@@ -148,13 +149,13 @@ nav{
     flex-direction: row;
     justify-content: space-around;
 }
-nav > img{
+nav img{
 width: 90px;
 }
-.about img{
+.contactUs img{
     width: 60px;
 }
-.about{
+.contactUs{
     width: 100%;
     padding: 40px 80px;
     background-color: hsl(210, 11%, 89%);
@@ -164,26 +165,26 @@ width: 90px;
     flex-wrap: wrap;
     gap: 30px;
 }
-.about .contact{
+.contactUs .contact{
     display: grid;
     grid-template-columns: repeat(3, auto);
     gap: 20px 40px;
     text-align: left;
 }
-.about .contact > a{
+.contactUs .contact > a{
     color: var(--hedding_color);
     font-weight: 400;
     text-decoration: none;
 }
-.about .contact > a:hover{
+.contactUs .contact > a:hover{
     color: hsl(171, 66%, 44%);
 }
-.about .media{
+.contactUs .media{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.about .media img{
+.contactUs .media img{
     margin-right: 20px;
     width: 20px;
 }
@@ -191,7 +192,6 @@ width: 90px;
 @media (max-width: 672px) {
     header{
     background: url(images/bg-header-mobile.png);
-    background-size: 100% auto;
     }
     header img{
         margin: 40px 0 27px 0;
@@ -248,14 +248,14 @@ nav{
     align-items: center;
     gap: 40px;
 }
-.about{
+.contactUs{
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.about .contact{
+.contactUs .contact{
     margin: 20px 0 20px 0;
     display: flex;
     flex-direction: column;
